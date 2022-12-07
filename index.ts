@@ -16,7 +16,7 @@ const welcome = async () => {
   );
 };
 
-const key = { apiKey: "VQK21LHhh9j32n8uhYs9ZXCbC90jGbiG" };
+const key = { apiKey: "" };
 
 const getUserInput = async () => {
   const amount = await inquirer.prompt([
